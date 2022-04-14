@@ -2,6 +2,8 @@
 ## Overview
 Self-contained HTTP server written in golang that serves static web content and API requests to retrieve data from an SQLite DB and display it in a table.  It can also import XLSX data using the `-import` flag.
 
+Uses [gorm](https://gorm.io) for data access, [excelize](https://github.com/qax-os/excelize) for import Excel parsing, and jQuery and [UIKit](https://getuikit.com/) for the front-end.
+
 ## Prerequisites
 * Install [Go 1.15.5](https://go.dev/doc/install) or higher.
 * Open a terminal and grab the dependencies using `go get`:
