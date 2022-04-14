@@ -13,7 +13,7 @@ go get -u gorm.io/drivers/sqlite
 ## Building the Application
 Once golang is installed, clone the repository, open a terminal in the project directory and run the following
 ```shell
-go build "vtx-tt.go" && "./vtx-tt"
+go build "vaultex-tt.go" && "./vaultex-tt"
 ```
 
 You should see the following output:
@@ -26,8 +26,8 @@ Listening at :8080...
 
 And that's it. You can now view the page in your web browser by going to [http://localhost:8080/](http://localhost:8080/).
 
-![UI screenshot 1](http://github.com/mcgarnaghoul/vtx-tt/doc/ui_1.PNG "UI 1")
-![UI screenshot 2](http://github.com/mcgarnaghoul/vtx-tt/doc/ui_2.PNG "UI 2")
+![UI screenshot 1](http://github.com/mcgarnaghoul/vaultex-tt/doc/ui_1.PNG "UI 1")
+![UI screenshot 2](http://github.com/mcgarnaghoul/vaultex-tt/doc/ui_2.PNG "UI 2")
 
 The test data should already be present in test.db, although if it's not...
 
